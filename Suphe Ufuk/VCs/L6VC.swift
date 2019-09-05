@@ -1,63 +1,65 @@
 //
-//  L2VCViewController.swift
+//  Level4ViewController.swift
 //  Şüphe
 //
-//  Created by Ufuk Celen on 23.06.2018.
-//  Copyright © 2018 Ufuk Celen. All rights reserved.
+//  Created by Ufuk Çelen on 29.04.2018.
+//  Copyright © 2018 Ufuk Çelen. All rights reserved.
 //
 
 import UIKit
 
-class L2VC: UIViewController {
-
-
-    let userArray = ["Pirinç","Pirinc","PİRİNÇ","PIRINC","pirinç","pirinc"]
-    let passArray = ["fabrikası","fabrikasi","Fabrikası","Fabrikasi","FABRIKASI","FABRIKASİ"]
-
-//    @IBOutlet weak var baslik: UILabel!
+class L6VC: UIViewController {
     
-    @IBOutlet weak var myImage: UIImageView!
+    let userArray =  ["adil","Adil","ADIL","ADİL"]
+    let passArray = ["bir","Bir","BİR","BIR"]
+    let extraArray = ["anlaşma","anlasma","Anlaşma","Anlasma","ANLAŞMA","ANLASMA"]
+
+   
     
     @IBOutlet weak var userTextField: UITextField!
-    
     @IBOutlet weak var passTextField: UITextField!
-    
+    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var but2: UIButton!
     @IBOutlet weak var but1: UIButton!
-    
     @IBOutlet weak var idv: UIImageView!
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-  
-        let textFieldAppearance = UITextField.appearance()
-        textFieldAppearance.keyboardAppearance = .dark //.default//.light//.alert
+      
         
-        
-        passTextField.returnKeyType = UIReturnKeyType.default
-        
+     
         applyMotionEffect(toView: myImage, magnitude: 20)
-        applyMotionEffect(toView: passTextField, magnitude: 20)
         applyMotionEffect(toView: userTextField, magnitude: 20)
+        applyMotionEffect(toView: passTextField, magnitude: 20)
 //        applyMotionEffect(toView: baslik, magnitude: 20)
         applyMotionEffect(toView: but1, magnitude: 20)
         applyMotionEffect(toView: idv, magnitude: 10)
+         applyMotionEffect(toView: but2, magnitude: 20)
         
-
+        
+        let textFieldAppearance = UITextField.appearance()
+        textFieldAppearance.keyboardAppearance = .dark //.default//.light//.alert
+        
+   
+        userTextField.returnKeyType = UIReturnKeyType.default
+        passTextField.returnKeyType = UIReturnKeyType.default
+    
+    
+    
+    
     }
- 
 
+   
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
     
     
-    
-    @IBAction func enterPressed(_ sender: UIButton) {
+    @IBAction func tamamPressed(_ sender: UIButton) {
         if userArray.contains(userTextField.text!){
             if passArray.contains(passTextField.text!){
                 
-                performSegue(withIdentifier: "to3", sender: self)
+                performSegue(withIdentifier: "to7", sender: self)
                 playSuccess()
                 
             }else{
@@ -70,8 +72,13 @@ class L2VC: UIViewController {
             passTextField.text = ""
             playError()
         }
-        
     }
     
+
     
+    
+    
+   
+    
+
 }

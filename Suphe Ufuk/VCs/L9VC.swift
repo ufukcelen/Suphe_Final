@@ -16,42 +16,28 @@ class L9VC: UIViewController {
     
     
     @IBOutlet weak var textFieldP: UITextField!
-    
     @IBOutlet weak var myImage: UIImageView!
-    
-//    @IBOutlet weak var baslik: UILabel!
-    
     @IBOutlet weak var hintImg: UIButton!
     @IBOutlet weak var but1Img: UIButton!
-    
     @IBOutlet weak var idImg: UIImageView!
     
         override func viewDidLoad() {
         super.viewDidLoad()
         
-          
-            
-            
+   
             let textFieldAppearance = UITextField.appearance()
             textFieldAppearance.keyboardAppearance = .dark //.default//.light//.alert
             
             
             textFieldP.returnKeyType = UIReturnKeyType.default
-            
-            
+        
             applyMotionEffect(toView: myImage, magnitude: 20)
             applyMotionEffect(toView: textFieldP, magnitude: 20)
-         //   applyMotionEffect(toView: passTextField, magnitude: 30)
-//            applyMotionEffect(toView: baslik, magnitude: 20)
             applyMotionEffect(toView: but1Img, magnitude: 20)
             applyMotionEffect(toView: idImg, magnitude: 10)
             applyMotionEffect(toView: hintImg, magnitude: 20)
             
-        
-        
-            
-            
-        
+
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
@@ -66,12 +52,4 @@ class L9VC: UIViewController {
             playError()
         }
     }
-    
-  
-    
-    
-    
-    
-        
-    
 }

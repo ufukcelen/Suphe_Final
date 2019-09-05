@@ -1,5 +1,5 @@
 //
-//  Class.swift
+//  Classes.swift
 //  supheUITests
 //
 //  Created by Ufuk Celen on 8.08.2019.
@@ -34,7 +34,7 @@ var player: AVAudioPlayer?
 func playSuccess() {
     guard let url = Bundle.main.url(forResource: "success", withExtension: "wav") else { return }
     do {
-     //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try AVAudioSession.sharedInstance().setActive(true)
         player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
         guard let player = player else { return }
@@ -57,8 +57,8 @@ func playError() {
     }
 }
 
-func playHaunt() {
-    guard let url = Bundle.main.url(forResource: "haunt", withExtension: "wav") else { return }
+func playHaunted() {
+    guard let url = Bundle.main.url(forResource: "haunted", withExtension: "wav") else { return }
     do {
         //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try AVAudioSession.sharedInstance().setActive(true)
@@ -109,7 +109,18 @@ func playRuzgar() {
     }
 }
 
-
+func playHaunt() {
+    guard let url = Bundle.main.url(forResource: "haunt", withExtension: "wav") else { return }
+    do {
+        //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try AVAudioSession.sharedInstance().setActive(true)
+        player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+        guard let player = player else { return }
+        player.play()
+    } catch let error {
+        print(error.localizedDescription)
+    }
+}
 
 func deneme() {
     guard let url = Bundle.main.url(forResource: "success", withExtension: "wav") else { return }
@@ -125,19 +136,21 @@ func deneme() {
 }
 
 func playDeep() {
-guard let url = Bundle.main.url(forResource: "Deep", withExtension: "m4a") else { return }
-do {
- //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-    try AVAudioSession.sharedInstance().setActive(true)
-    player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-    guard let player = player else { return }
-    player.play()
-} catch let error {
-    print(error.localizedDescription)
-}
+    guard let url = Bundle.main.url(forResource: "Deep", withExtension: "m4a") else { return }
+    do {
+        //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try AVAudioSession.sharedInstance().setActive(true)
+        player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+        guard let player = player else { return }
+        player.play()
+    } catch let error {
+        print(error.localizedDescription)
+    }
     
 }
 
+
+//TextField Classes
 
 @IBDesignable
 class darkText: UITextField {
@@ -158,7 +171,7 @@ class darkText: UITextField {
 
 @IBDesignable
 class whiteText: UITextField {
-
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         self.layer.borderColor = UIColor(white : 231 / 255, alpha: 1).cgColor
@@ -172,3 +185,5 @@ class whiteText: UITextField {
         return textRect(forBounds: bounds)
     }
 }
+
+
