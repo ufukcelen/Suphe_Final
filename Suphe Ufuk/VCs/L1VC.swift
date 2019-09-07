@@ -60,7 +60,7 @@ class L1VC: UIViewController {
         playSuccess()
         }else if userArray2.contains(userTextField.text!) && passArray2.contains(passTextField.text!){
             performSegue(withIdentifier: "to1.2", sender: nil)
-            playSuccess()
+            //playSuccess()
    }else {
             passTextField.text = ""
             userTextField.text = ""

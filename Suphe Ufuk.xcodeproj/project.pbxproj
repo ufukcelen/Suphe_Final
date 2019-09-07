@@ -120,8 +120,8 @@
 				26B1EC342304748E005824F6 /* LaunchScreen.storyboard */,
 				26B1EC3F23047510005824F6 /* Classes.swift */,
 				2672EEF6232138FB00CC8C46 /* Sound */,
-				26B1EC322304748E005824F6 /* Assets.xcassets */,
 				26E80F68230852C300C7F874 /* VCs */,
+				26B1EC322304748E005824F6 /* Assets.xcassets */,
 				26B1EC372304748E005824F6 /* Info.plist */,
 			);
 			path = "Suphe Ufuk";
@@ -391,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E4A5J638QN;
 				INFOPLIST_FILE = "Suphe Ufuk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E4A5J638QN;
 				INFOPLIST_FILE = "Suphe Ufuk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -71,7 +71,7 @@ func playHaunted() {
 }
 
 func stopHaunt() {
-    guard let url = Bundle.main.url(forResource: "haunt", withExtension: "wav") else { return }
+    guard let url = Bundle.main.url(forResource: "haunted", withExtension: "wav") else { return }
     do {
         //   try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try AVAudioSession.sharedInstance().setActive(true)
