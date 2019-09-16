@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2667EF3823241CED00C4C542 /* L11VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2667EF3723241CED00C4C542 /* L11VC.swift */; };
+		2667EF3A23241D0500C4C542 /* L12VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2667EF3923241D0500C4C542 /* L12VC.swift */; };
+		2667EF3C23241D1400C4C542 /* L13VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2667EF3B23241D1400C4C542 /* L13VC.swift */; };
+		2667EF3E23241DC800C4C542 /* L13HintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2667EF3D23241DC800C4C542 /* L13HintVC.swift */; };
 		2672EEEF2321372200CC8C46 /* ruzgar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEE82321371F00CC8C46 /* ruzgar.wav */; };
 		2672EEF02321372200CC8C46 /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEE92321371F00CC8C46 /* success.wav */; };
 		2672EEF12321372200CC8C46 /* L40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEEA2321371F00CC8C46 /* L40.mp3 */; };
@@ -14,6 +18,7 @@
 		2672EEF32321372200CC8C46 /* L17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEEC2321372100CC8C46 /* L17.mp3 */; };
 		2672EEF42321372200CC8C46 /* l27.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEED2321372100CC8C46 /* l27.wav */; };
 		2672EEF52321372200CC8C46 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2672EEEE2321372100CC8C46 /* error.wav */; };
+		26954A252324AD020011006F /* Suphe_UfukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26954A242324AD020011006F /* Suphe_UfukUITests.swift */; };
 		26B1EC2A2304748A005824F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1EC292304748A005824F6 /* AppDelegate.swift */; };
 		26B1EC2C2304748A005824F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B1EC2B2304748A005824F6 /* SceneDelegate.swift */; };
 		26B1EC312304748A005824F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B1EC2F2304748A005824F6 /* Main.storyboard */; };
@@ -37,7 +42,21 @@
 		26E80F562308502300C7F874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E80F552308502300C7F874 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		26954A272324AD020011006F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B1EC1E2304748A005824F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B1EC252304748A005824F6;
+			remoteInfo = "Suphe Ufuk";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2667EF3723241CED00C4C542 /* L11VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L11VC.swift; sourceTree = "<group>"; };
+		2667EF3923241D0500C4C542 /* L12VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L12VC.swift; sourceTree = "<group>"; };
+		2667EF3B23241D1400C4C542 /* L13VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L13VC.swift; sourceTree = "<group>"; };
+		2667EF3D23241DC800C4C542 /* L13HintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L13HintVC.swift; sourceTree = "<group>"; };
 		2672EEE82321371F00CC8C46 /* ruzgar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ruzgar.wav; sourceTree = "<group>"; };
 		2672EEE92321371F00CC8C46 /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
 		2672EEEA2321371F00CC8C46 /* L40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = L40.mp3; sourceTree = "<group>"; };
@@ -45,7 +64,10 @@
 		2672EEEC2321372100CC8C46 /* L17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = L17.mp3; sourceTree = "<group>"; };
 		2672EEED2321372100CC8C46 /* l27.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l27.wav; sourceTree = "<group>"; };
 		2672EEEE2321372100CC8C46 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
-		26B1EC262304748A005824F6 /* Suphe Ufuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Suphe Ufuk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26954A222324AD020011006F /* Suphe UfukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Suphe UfukUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26954A242324AD020011006F /* Suphe_UfukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suphe_UfukUITests.swift; sourceTree = "<group>"; };
+		26954A262324AD020011006F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B1EC262304748A005824F6 /* Şuphe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Şuphe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B1EC292304748A005824F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B1EC2B2304748A005824F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		26B1EC302304748A005824F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +93,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		26954A1F2324AD020011006F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26B1EC232304748A005824F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,10 +124,20 @@
 			path = Sound;
 			sourceTree = "<group>";
 		};
+		26954A232324AD020011006F /* Suphe UfukUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26954A242324AD020011006F /* Suphe_UfukUITests.swift */,
+				26954A262324AD020011006F /* Info.plist */,
+			);
+			path = "Suphe UfukUITests";
+			sourceTree = "<group>";
+		};
 		26B1EC1D2304748A005824F6 = {
 			isa = PBXGroup;
 			children = (
 				26B1EC282304748A005824F6 /* Suphe Ufuk */,
+				26954A232324AD020011006F /* Suphe UfukUITests */,
 				26B1EC272304748A005824F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,7 +145,8 @@
 		26B1EC272304748A005824F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26B1EC262304748A005824F6 /* Suphe Ufuk.app */,
+				26B1EC262304748A005824F6 /* Şuphe.app */,
+				26954A222324AD020011006F /* Suphe UfukUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +185,10 @@
 				26B958EC230709AD0005D793 /* L9VC.swift */,
 				26B958ED230709AE0005D793 /* L9HintVC.swift */,
 				26B958F0230709B90005D793 /* L10VC.swift */,
+				2667EF3723241CED00C4C542 /* L11VC.swift */,
+				2667EF3923241D0500C4C542 /* L12VC.swift */,
+				2667EF3B23241D1400C4C542 /* L13VC.swift */,
+				2667EF3D23241DC800C4C542 /* L13HintVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -152,6 +196,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		26954A212324AD020011006F /* Suphe UfukUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26954A2B2324AD020011006F /* Build configuration list for PBXNativeTarget "Suphe UfukUITests" */;
+			buildPhases = (
+				26954A1E2324AD020011006F /* Sources */,
+				26954A1F2324AD020011006F /* Frameworks */,
+				26954A202324AD020011006F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26954A282324AD020011006F /* PBXTargetDependency */,
+			);
+			name = "Suphe UfukUITests";
+			productName = "Suphe UfukUITests";
+			productReference = 26954A222324AD020011006F /* Suphe UfukUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		26B1EC252304748A005824F6 /* Suphe Ufuk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26B1EC3A2304748E005824F6 /* Build configuration list for PBXNativeTarget "Suphe Ufuk" */;
@@ -166,7 +228,7 @@
 			);
 			name = "Suphe Ufuk";
 			productName = "Suphe Ufuk";
-			productReference = 26B1EC262304748A005824F6 /* Suphe Ufuk.app */;
+			productReference = 26B1EC262304748A005824F6 /* Şuphe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,6 +241,10 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Ufuk Celen";
 				TargetAttributes = {
+					26954A212324AD020011006F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 26B1EC252304748A005824F6;
+					};
 					26B1EC252304748A005824F6 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -198,11 +264,19 @@
 			projectRoot = "";
 			targets = (
 				26B1EC252304748A005824F6 /* Suphe Ufuk */,
+				26954A212324AD020011006F /* Suphe UfukUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		26954A202324AD020011006F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26B1EC242304748A005824F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,14 +297,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		26954A1E2324AD020011006F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26954A252324AD020011006F /* Suphe_UfukUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26B1EC222304748A005824F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2667EF3823241CED00C4C542 /* L11VC.swift in Sources */,
 				26E511352306F50900944F41 /* L1VC.swift in Sources */,
 				26E5113C2306F50900944F41 /* L6HintVC.swift in Sources */,
 				26B958EB230709A20005D793 /* L8VC.swift in Sources */,
+				2667EF3C23241D1400C4C542 /* L13VC.swift in Sources */,
 				26B958EE230709AE0005D793 /* L9VC.swift in Sources */,
+				2667EF3E23241DC800C4C542 /* L13HintVC.swift in Sources */,
 				26E511382306F50900944F41 /* L5VC.swift in Sources */,
 				26B1EC4023047510005824F6 /* Classes.swift in Sources */,
 				26B958EF230709AE0005D793 /* L9HintVC.swift in Sources */,
@@ -240,6 +325,7 @@
 				26B1EC2A2304748A005824F6 /* AppDelegate.swift in Sources */,
 				26B958F1230709B90005D793 /* L10VC.swift in Sources */,
 				26E80F562308502300C7F874 /* ViewController.swift in Sources */,
+				2667EF3A23241D0500C4C542 /* L12VC.swift in Sources */,
 				26E511392306F50900944F41 /* L3VC.swift in Sources */,
 				26E511332306F50900944F41 /* L4_1VC.swift in Sources */,
 				26E80F542308477700C7F874 /* L7VC.swift in Sources */,
@@ -249,6 +335,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26954A282324AD020011006F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B1EC252304748A005824F6 /* Suphe Ufuk */;
+			targetProxy = 26954A272324AD020011006F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		26B1EC2F2304748A005824F6 /* Main.storyboard */ = {
@@ -270,6 +364,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		26954A292324AD020011006F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4A5J638QN;
+				INFOPLIST_FILE = "Suphe UfukUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Golge.Suphe-UfukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Suphe Ufuk";
+			};
+			name = Debug;
+		};
+		26954A2A2324AD020011006F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4A5J638QN;
+				INFOPLIST_FILE = "Suphe UfukUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Golge.Suphe-UfukUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Suphe Ufuk";
+			};
+			name = Release;
+		};
 		26B1EC382304748E005824F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -389,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = E4A5J638QN;
 				INFOPLIST_FILE = "Suphe Ufuk/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -396,8 +529,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = idepark.SupUfuk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = idepark.SupUfuk7767;
+				PRODUCT_NAME = "Şuphe";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -408,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = E4A5J638QN;
 				INFOPLIST_FILE = "Suphe Ufuk/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -415,8 +550,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = idepark.SupUfuk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = idepark.SupUfuk7767;
+				PRODUCT_NAME = "Şuphe";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -425,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26954A2B2324AD020011006F /* Build configuration list for PBXNativeTarget "Suphe UfukUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26954A292324AD020011006F /* Debug */,
+				26954A2A2324AD020011006F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		26B1EC212304748A005824F6 /* Build configuration list for PBXProject "Suphe Ufuk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
